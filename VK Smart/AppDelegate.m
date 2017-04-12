@@ -12,7 +12,9 @@
 
 #import "VKManager.h"
 
-#define VK_APP_ID @"5978934"
+#import <GCNetworkReachability.h>
+
+#import "Constants.h"
 
 @interface AppDelegate ()
 
@@ -27,13 +29,15 @@
     /*
      VK init
      */
-    [self setupVK];
     [[VKManager sharedInstance] checkAuthorizeStatus];
     
+    /*
+     Reachability
+     */
+    [self startReachabilityMonitoring];
 
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -66,8 +70,32 @@
     return YES;
 }
 
--(void)setupVK {
-    [[VKSdk initializeWithAppId:VK_APP_ID] registerDelegate:self];
 
+#pragma mark - Reachability
+
+- (void)startReachabilityMonitoring {
+//    showOfflineAlert = YES;
+//    self.reachability = [GCNetworkReachability reachabilityWithHostName:@"www.google.com"];
+//    [self.reachability startMonitoringNetworkReachabilityWithHandler:^(GCNetworkReachabilityStatus status) {
+//        // this block is called on the main thread
+//        switch (status) {
+//            case GCNetworkReachabilityStatusNotReachable:
+//                if (showOfflineAlert) {
+//                    [self showOfflineAlert];
+//                    showOfflineAlert = NO;
+//                }
+//                break;
+//            case GCNetworkReachabilityStatusWWAN:
+//            case GCNetworkReachabilityStatusWiFi:
+//                if (!showOfflineAlert) {
+//                    [[NSNotificationCenter defaultCenter] postNotificationName:NN_NETWORK_STATE_OK object:nil];
+//                }
+//                showOfflineAlert = YES;
+//                break;
+//        }
+//    }];
+}
+-(void)setupVK {
+//    [[VKSdk initializeWithAppId:VK_APP_ID] registerDelegate:self];
 }
 @end

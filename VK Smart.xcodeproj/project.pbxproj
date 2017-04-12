@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		8401408E1E9D837800666EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401408D1E9D837800666EB6 /* main.m */; };
 		840140911E9D837800666EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140901E9D837800666EB6 /* AppDelegate.m */; };
-		840140971E9D837800666EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140951E9D837800666EB6 /* Main.storyboard */; };
 		840140991E9D837800666EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840140981E9D837800666EB6 /* Assets.xcassets */; };
 		8401409C1E9D837800666EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401409A1E9D837800666EB6 /* LaunchScreen.storyboard */; };
 		840140A81E9D879400666EB6 /* VKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140A71E9D879400666EB6 /* VKManager.m */; };
 		840140AE1E9D8AE400666EB6 /* VKNavigationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140AD1E9D8AE400666EB6 /* VKNavigationHelper.m */; };
-		840140B11E9D8BCF00666EB6 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140B01E9D8BCF00666EB6 /* Menu.storyboard */; };
 		840140B31E9D8C5000666EB6 /* Modals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140B21E9D8C5000666EB6 /* Modals.storyboard */; };
+		8447E3131E9EBA4C0049DBAD /* RevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447E3121E9EBA4C0049DBAD /* RevealViewController.m */; };
+		8447E3151E9EBBA20049DBAD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8447E3141E9EBBA20049DBAD /* Login.storyboard */; };
+		8447E3181E9EBFAD0049DBAD /* VKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447E3171E9EBFAD0049DBAD /* VKLoginViewController.m */; };
+		8447E31B1E9EC3CE0049DBAD /* VKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447E31A1E9EC3CE0049DBAD /* VKUtils.m */; };
+		8447E31E1E9EC5690049DBAD /* NSString+VK_Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447E31D1E9EC5690049DBAD /* NSString+VK_Smart.m */; };
+		8447E3211E9EC7000049DBAD /* UIColor+VK_Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447E3201E9EC7000049DBAD /* UIColor+VK_Smart.m */; };
+		84BD00971E9D900400A9D404 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD00961E9D900400A9D404 /* Menu.storyboard */; };
+		84BD009C1E9D902500A9D404 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD00991E9D902500A9D404 /* ModalViewController.m */; };
+		84BD009D1E9D902500A9D404 /* UIViewController+ShowModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD009B1E9D902500A9D404 /* UIViewController+ShowModal.m */; };
+		84BD00A11E9D903D00A9D404 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD00A01E9D903D00A9D404 /* BaseViewController.m */; };
+		84BD00A51E9D90FE00A9D404 /* UIViewController+VK_Smart.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD00A41E9D90FE00A9D404 /* UIViewController+VK_Smart.m */; };
+		84BD00A91E9D91D500A9D404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD00A81E9D91D500A9D404 /* Main.storyboard */; };
+		84BD00AB1E9D920B00A9D404 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD00AA1E9D920B00A9D404 /* Content.storyboard */; };
 		9CAC29184E00B8C08D5F4BED /* libPods-VK Smart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BF7B4E3E150754488148C3 /* libPods-VK Smart.a */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +36,6 @@
 		8401408D1E9D837800666EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8401408F1E9D837800666EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840140901E9D837800666EB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		840140961E9D837800666EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840140981E9D837800666EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8401409B1E9D837800666EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8401409D1E9D837900666EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,8 +44,30 @@
 		840140AA1E9D87DB00666EB6 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		840140AC1E9D8AE400666EB6 /* VKNavigationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKNavigationHelper.h; sourceTree = "<group>"; };
 		840140AD1E9D8AE400666EB6 /* VKNavigationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKNavigationHelper.m; sourceTree = "<group>"; };
-		840140B01E9D8BCF00666EB6 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		840140B21E9D8C5000666EB6 /* Modals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Modals.storyboard; sourceTree = "<group>"; };
+		8447E3111E9EBA4B0049DBAD /* RevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealViewController.h; sourceTree = "<group>"; };
+		8447E3121E9EBA4C0049DBAD /* RevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealViewController.m; sourceTree = "<group>"; };
+		8447E3141E9EBBA20049DBAD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8447E3161E9EBFAD0049DBAD /* VKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKLoginViewController.h; sourceTree = "<group>"; };
+		8447E3171E9EBFAD0049DBAD /* VKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKLoginViewController.m; sourceTree = "<group>"; };
+		8447E3191E9EC3CE0049DBAD /* VKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKUtils.h; sourceTree = "<group>"; };
+		8447E31A1E9EC3CE0049DBAD /* VKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKUtils.m; sourceTree = "<group>"; };
+		8447E31C1E9EC5690049DBAD /* NSString+VK_Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VK_Smart.h"; sourceTree = "<group>"; };
+		8447E31D1E9EC5690049DBAD /* NSString+VK_Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VK_Smart.m"; sourceTree = "<group>"; };
+		8447E31F1E9EC7000049DBAD /* UIColor+VK_Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VK_Smart.h"; sourceTree = "<group>"; };
+		8447E3201E9EC7000049DBAD /* UIColor+VK_Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VK_Smart.m"; sourceTree = "<group>"; };
+		84BD00961E9D900400A9D404 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		84BD00981E9D902500A9D404 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		84BD00991E9D902500A9D404 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		84BD009A1E9D902500A9D404 /* UIViewController+ShowModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowModal.h"; sourceTree = "<group>"; };
+		84BD009B1E9D902500A9D404 /* UIViewController+ShowModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowModal.m"; sourceTree = "<group>"; };
+		84BD009F1E9D903D00A9D404 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		84BD00A01E9D903D00A9D404 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		84BD00A31E9D90FE00A9D404 /* UIViewController+VK_Smart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VK_Smart.h"; sourceTree = "<group>"; };
+		84BD00A41E9D90FE00A9D404 /* UIViewController+VK_Smart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VK_Smart.m"; sourceTree = "<group>"; };
+		84BD00A81E9D91D500A9D404 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84BD00AA1E9D920B00A9D404 /* Content.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		84BD00AC1E9D961F00A9D404 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		EF3D06156579B575D3BD912D /* Pods-VK Smart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Smart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VK Smart/Pods-VK Smart.debug.xcconfig"; sourceTree = "<group>"; };
 		FE46CD3D11FE22FCBE5766D0 /* Pods-VK Smart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Smart.release.xcconfig"; path = "Pods/Target Support Files/Pods-VK Smart/Pods-VK Smart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +139,13 @@
 		840140A41E9D875700666EB6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8447E3111E9EBA4B0049DBAD /* RevealViewController.h */,
+				8447E3121E9EBA4C0049DBAD /* RevealViewController.m */,
+				84BD00AD1E9D96B600A9D404 /* Login */,
+				84BD00A61E9D918800A9D404 /* Main */,
+				84BD00A71E9D918800A9D404 /* Menu */,
+				84BD009E1E9D903D00A9D404 /* Common */,
+				84BD00951E9D8F9C00A9D404 /* Modals */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -123,7 +162,11 @@
 		840140A91E9D87C100666EB6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				84BD00A21E9D90E100A9D404 /* Extensions */,
 				840140AA1E9D87DB00666EB6 /* Macros.h */,
+				84BD00AC1E9D961F00A9D404 /* Constants.h */,
+				8447E3191E9EC3CE0049DBAD /* VKUtils.h */,
+				8447E31A1E9EC3CE0049DBAD /* VKUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -140,11 +183,69 @@
 		840140AF1E9D8B1600666EB6 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				84BD00A81E9D91D500A9D404 /* Main.storyboard */,
+				84BD00961E9D900400A9D404 /* Menu.storyboard */,
 				840140B21E9D8C5000666EB6 /* Modals.storyboard */,
-				840140951E9D837800666EB6 /* Main.storyboard */,
-				840140B01E9D8BCF00666EB6 /* Menu.storyboard */,
+				84BD00AA1E9D920B00A9D404 /* Content.storyboard */,
+				8447E3141E9EBBA20049DBAD /* Login.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84BD00951E9D8F9C00A9D404 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				84BD00981E9D902500A9D404 /* ModalViewController.h */,
+				84BD00991E9D902500A9D404 /* ModalViewController.m */,
+				84BD009A1E9D902500A9D404 /* UIViewController+ShowModal.h */,
+				84BD009B1E9D902500A9D404 /* UIViewController+ShowModal.m */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		84BD009E1E9D903D00A9D404 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84BD009F1E9D903D00A9D404 /* BaseViewController.h */,
+				84BD00A01E9D903D00A9D404 /* BaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84BD00A21E9D90E100A9D404 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84BD00A31E9D90FE00A9D404 /* UIViewController+VK_Smart.h */,
+				84BD00A41E9D90FE00A9D404 /* UIViewController+VK_Smart.m */,
+				8447E31C1E9EC5690049DBAD /* NSString+VK_Smart.h */,
+				8447E31D1E9EC5690049DBAD /* NSString+VK_Smart.m */,
+				8447E31F1E9EC7000049DBAD /* UIColor+VK_Smart.h */,
+				8447E3201E9EC7000049DBAD /* UIColor+VK_Smart.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84BD00A61E9D918800A9D404 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84BD00A71E9D918800A9D404 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		84BD00AD1E9D96B600A9D404 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8447E3161E9EBFAD0049DBAD /* VKLoginViewController.h */,
+				8447E3171E9EBFAD0049DBAD /* VKLoginViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		93AE3F67A4485A0EE66657ED /* Pods */ = {
@@ -227,11 +328,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD00971E9D900400A9D404 /* Menu.storyboard in Resources */,
+				84BD00A91E9D91D500A9D404 /* Main.storyboard in Resources */,
+				8447E3151E9EBBA20049DBAD /* Login.storyboard in Resources */,
+				84BD00AB1E9D920B00A9D404 /* Content.storyboard in Resources */,
 				840140B31E9D8C5000666EB6 /* Modals.storyboard in Resources */,
 				8401409C1E9D837800666EB6 /* LaunchScreen.storyboard in Resources */,
 				840140991E9D837800666EB6 /* Assets.xcassets in Resources */,
-				840140971E9D837800666EB6 /* Main.storyboard in Resources */,
-				840140B11E9D8BCF00666EB6 /* Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,24 +394,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				840140AE1E9D8AE400666EB6 /* VKNavigationHelper.m in Sources */,
+				84BD009D1E9D902500A9D404 /* UIViewController+ShowModal.m in Sources */,
 				840140911E9D837800666EB6 /* AppDelegate.m in Sources */,
+				84BD009C1E9D902500A9D404 /* ModalViewController.m in Sources */,
+				8447E31E1E9EC5690049DBAD /* NSString+VK_Smart.m in Sources */,
+				8447E3131E9EBA4C0049DBAD /* RevealViewController.m in Sources */,
+				8447E3181E9EBFAD0049DBAD /* VKLoginViewController.m in Sources */,
 				840140A81E9D879400666EB6 /* VKManager.m in Sources */,
+				84BD00A51E9D90FE00A9D404 /* UIViewController+VK_Smart.m in Sources */,
+				8447E31B1E9EC3CE0049DBAD /* VKUtils.m in Sources */,
+				84BD00A11E9D903D00A9D404 /* BaseViewController.m in Sources */,
 				8401408E1E9D837800666EB6 /* main.m in Sources */,
+				8447E3211E9EC7000049DBAD /* UIColor+VK_Smart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		840140951E9D837800666EB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840140961E9D837800666EB6 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		8401409A1E9D837800666EB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

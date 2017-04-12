@@ -8,6 +8,15 @@
 
 #import "VKNavigationHelper.h"
 
+#import "AppDelegate.h"
+
 @implementation VKNavigationHelper
 
++(void)setupRootVC {
+    NSString* storyboardName = ([VKUserManager sharedInstance].isUserAuthorised) ? @"Main" : @"Login";
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:[NSBundle mainBundle]];
+    UIViewController* rootVC = [storyboard instantiateInitialViewController];
+    //TODO: implement animated transition
+    ((AppDelegate*)[UIApplication sharedApplication].delegate).window.rootViewController = rootVC;
+}
 @end

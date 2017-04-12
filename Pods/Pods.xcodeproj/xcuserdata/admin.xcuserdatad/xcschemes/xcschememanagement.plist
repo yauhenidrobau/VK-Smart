@@ -14,12 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-VK Smart.xcscheme</key>
+		<key>GCNetworkReachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Reachability.xcscheme</key>
+		<key>Pods-VK Smart.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,27 +52,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FEC90FF8F1016725C655B9A72B7ED17</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>22852458C6C4BBA41A45DF28332B3A7C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4ED20A020836C2D4227CB2DFFB0CF437</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>64E46084B122B90083FFDA7F50EC2171</key>
+		<key>6B43F8DED0A672DEAFB1D392A9917D91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +67,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B8A88F396731521E6CF09AD6398C8AC</key>
+		<key>866BE856E11A98F951D562FADF97A9C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A80EACBB5657092B014ADE981E23E271</key>
+		<key>A0539B40996711087DBB342E55D39BA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAB904749CA33E8F090330734103DE42</key>
+		<key>BA4093A83AADB7E277DA9D3E66917AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE88D8320E9204110D9132C022CBABBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D337BF4731DC25EDD24CED236226A613</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8B9ED23C2113DE4F36AC9CB1779E205</key>
 		<dict>
 			<key>primary</key>
 			<true/>

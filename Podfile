@@ -5,7 +5,7 @@ target 'VK Smart' do
 	pod 'VK-ios-sdk'
     pod 'Realm'
     pod 'DZNEmptyDataSet'
-    pod 'Reachability', '~> 3.2'
+    pod 'GCNetworkReachability'
     pod 'SDWebImage', '~>3.7.6'
     pod 'Fabric'
     pod 'Crashlytics'

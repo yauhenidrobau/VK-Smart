@@ -10,10 +10,13 @@
 #import "Macros.h"
 #import <VKSdk.h>
 
+typedef void(^BoolCompletion)(BOOL isTrue, NSError *error);
+
 @interface VKManager : NSObject
 
 +(instancetype)sharedInstance;
 
 -(void)checkAuthorizeStatus;
+-(void)loginWithEmail:(NSString*)email andPassword:(NSString*)password andCompletion:(BoolCompletion)completion;
 
 @end

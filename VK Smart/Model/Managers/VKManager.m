@@ -8,8 +8,27 @@
 
 #import "VKManager.h"
 
+#import "VKNavigationHelper.h"
+#import "Constants.h"
+
+@interface VKManager () <VKSdkDelegate>
+
+@end
+
 @implementation VKManager
+
 SINGLETON(VKManager)
+
+-(instancetype)init {
+    self = [super init];
+    if (self) {
+        [[VKSdk initializeWithAppId:VK_APP_ID] registerDelegate:self];
+    }
+    return self;
+}
+
+-(void)loginWithEmail:(NSString *)email andPassword:(NSString *)password andCompletion:(BoolCompletion)completion {
+}
 
 -(void)checkAuthorizeStatus {
     
@@ -18,7 +37,7 @@ SINGLETON(VKManager)
     [VKSdk wakeUpSession:SCOPE completeBlock:^(VKAuthorizationState state, NSError *error) {
         switch (state) {
             case VKAuthorizationAuthorized:
-                [];
+                [VKNavigationHelper setupRootVC];
                 break;
                 
             case VKAuthorizationInitialized:
@@ -30,5 +49,17 @@ SINGLETON(VKManager)
                 break;
         }
     }];
+}
+
+- (void)vkSdkAccessAuthorizationFinishedWithResult:(VKAuthorizationResult *)result {
+    if (result.token) {
+        // User successfully authorized, you may start working with VK API
+    } else if (result.error) {
+        // User canceled authorization, or occured unresolving networking error. Reset your UI to initial state and try authorize user later
+    }
+}
+
+- (void)vkSdkUserAuthorizationFailed {
+    
 }
 @end
